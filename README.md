@@ -20,15 +20,15 @@ Este projeto é uma aplicação web desenvolvida em PHP que permite gerenciar co
 
 🔹 Banco de Dados: MySQL para armazenamento persistente das informações de contato.
 
-📂 Estrutura do Projeto
+📂Estrutura do Projeto
+O repositório está organizado da seguinte forma:
 
-📦 cadastro_contatos
-├── 📄 index.php          # Página principal que exibe a lista de contatos
-├── 📄 adicionar.php      # Página com o formulário para adicionar novos contatos
-├── 📄 editar.php        # Página para editar as informações de um contato existente
-├── 📁 php_action/       # Contém os scripts PHP responsáveis pelas operações de CRUD
-├── 📁 includes/         # Diretório com arquivos auxiliares, como cabeçalhos e rodapés
-└── 📄 crud_cadastro_contatos.sql  # Script SQL para criação da tabela no banco de dados
+📄index.php: Página principal que exibe a lista de contatos.
+📄adicionar.php: Página com o formulário para adicionar novos contatos.
+📄editar.php: Página para editar as informações de um contato existente.
+📁php_action/: Contém os scripts PHP responsáveis pelas operações de CRUD.
+📁includes/: Diretório com arquivos auxiliares, como cabeçalhos e rodapés.
+📄crud_cadastro_contatos.sql: Script SQL para criação da tabela de contatos no banco de dados.
 
 ⚙️ Configuração e Execução
 
